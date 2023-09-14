@@ -504,6 +504,7 @@ section {
   font-size: 20px;
   color: #000; }
 
+
 .grid-portfolio {
   overflow: hidden; }
 
@@ -732,6 +733,8 @@ section {
 .client-slider .client-item {
   padding: 0 40px; }
 
+
+
 /*=====  End of CLIENT  ======*/
 /*==================================
 =            RESPONSIVE            =
@@ -761,8 +764,8 @@ section {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px; }
     .row{
-      margin-right: -55px;
-      margin-left: -55px;
+      width: 100%;
+      margin: auto;
   }
     }
 
@@ -775,6 +778,10 @@ section {
     width: 100%; }
   .progress {
     height: 30px;
-    font-size: 16px; } }
+    font-size: 16px; } 
+    .img-responsive{
+      width: 170px;
+    }
+  }
 
 /*=====  End of RESPONSIVE  ======*/
