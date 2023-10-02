@@ -602,10 +602,13 @@ section {
   margin-left: 50px; }
 
 @media screen and (max-height: 450px) {
+  body{
+    overflow-x: hidden;
+  }
   .sidenav {
     padding-top: 15px; }
   .sidenav a {
-    font-size: 18px; } }
+    font-size: 18px; }}
 
 #side-search .form-control {
   background-color: transparent; }
@@ -774,6 +777,9 @@ section {
   
 
 @media (max-width: 767px) {
+    body{
+    overflow-x: hidden;
+  }
   .jumbotron h1 {
     font-size: 3rem; }
   .grid-item {
